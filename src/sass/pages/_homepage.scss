@@ -1,0 +1,60 @@
+/* Navbar */
+
+.container-fluid {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.navbar .navbar-brand {
+  color: gold;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar a {
+  color: white;
+}
+
+// splash
+.splash {
+  position: relative;
+}
+
+.splash .btn,
+.btn {
+  background-color: white;
+  border: none;
+}
+
+.splash {
+  position: relative;
+  display: flex;
+}
+.splash img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+  top: 30%;
+  left: 25%;
+  text-align: center;
+  position: absolute;
+}
+
+.splash-inner .page-title {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: white;
+}
+
+.splash-inner .page-subtitle {
+  margin: 24px 0;
+  font-weight: 100;
+  font-size: 24px;
+  color: white;
+}
