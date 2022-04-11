@@ -1,0 +1,43 @@
+/*Global*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $font-text;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+section {
+  padding: 108px 0px 108px 0;
+}
+
+.section-title {
+  position: relative;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  /* font-family: $font-header; */
+}
+
+.section-title:after {
+  position: absolute;
+  background-color: gold;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 5px;
+  transform: translateX(-50%);
+}

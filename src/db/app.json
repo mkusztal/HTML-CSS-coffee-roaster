@@ -1,1 +1,7 @@
-{}
+{
+  "products": [
+    {
+      "id": "Coffee"
+    }
+  ]
+}

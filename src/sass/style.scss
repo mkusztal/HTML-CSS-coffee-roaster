@@ -1,10 +1,19 @@
-@import 'pages/variables';
-@import 'pages/normalize';
-@import 'pages/bootstrap';
-@import 'pages/layout';
-@import 'pages/typhography';
-@import 'pages/global';
+/* normalize default styles */
+@import 'normalize';
 
-@import 'pages/contact';
-@import 'pages/about';
-@import 'pages/homepage';
+/* icons */
+@import 'icon';
+
+/* Configuration, Layout & components */
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+/* @import 'bootstrap/mixins'; */
+@import 'bootstrap/utilities';
+/* @import 'bootstrap/images'; */
+/* @import 'bootstrap/grid'; */
+
+/* page */
+@import 'variables';
+@import 'layout';
+@import 'global';
+@import 'typography';
