@@ -1,9 +1,6 @@
 /* normalize default styles */
 @import 'normalize';
 
-/* icons */
-@import 'icon';
-
 /* Configuration, Layout & components */
 @import 'bootstrap/functions';
 @import 'bootstrap/variables';
@@ -12,8 +9,17 @@
 /* @import 'bootstrap/images'; */
 /* @import 'bootstrap/grid'; */
 
-/* page */
+/* variables */
 @import 'variables';
+
+/* common style */
 @import 'layout';
 @import 'global';
 @import 'typography';
+
+/* icons */
+@import 'icon';
+
+/* pages */
+@import 'pages/about';
+@import 'pages/footer';
