@@ -24,97 +24,125 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top header-nav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">EL TIGRE</a>
-        <h5 class="navbar-brand">VENEZUELA COFFEE BEANS</h5>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#mobile-menu"
-          aria-controls="mobile-menu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mobile-menu">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li><a class="nav-link" href="#">HOME</a></li>
-            <li><a class="nav-link" href="#">PRODUCTS</a></li>
-            <li><a class="nav-link" href="#">ABOUT</a></li>
-            <li><a class="nav-link" href="#">CONTACT</a></li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <a class="navbar-brand" href="#">EL TIGRE</a>
+      <h5 class="navbar-brand">VENEZUELA COFFEE BEANS</h5>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#mobile-menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse mr-auto" id="mobile-menu">
+        <ul class="navbar-nav navbar">
+          <li><a class="nav-link" href="#">HOME</a></li>
+          <li><a class="nav-link" href="#">PRODUCTS</a></li>
+          <li><a class="nav-link" href="#">ABOUT</a></li>
+          <li><a class="nav-link" href="#">CONTACT</a></li>
+        </ul>
+    
+        <div
+          class="btn-toolbar mb-2 ml-auto"
+          role="toolbar"
+          aria-label="Toolbar with button groups"
+        ></div>
       </div>
     </nav>
+    
 
     <header class="splash">
       <div class="splash-inner">
-        <img src="images/background.png" alt="beans of Coffee" />
+        <img src="images/background.png" class="w-100" alt="beans of Coffee" />
         <p class="page-title">HOME OF</p>
         <p class="page-title">ORIGINAL TASTES</p>
         <a class="btn btn-primary" href="#">DISCOVER</a>
+        <i class="icon-arrow"></i>
       </div>
     </header>
 
-    <section class="products">
-      <div class="container">
-        <h1 class="section-title">PRODUCTS</h1>
+    <section class="products m-lg-5">
+      <h1 class="section-title text-center">PRODUCTS</h1>
+      <div class="row">
         <article class="product-right">
           <div class="product-image">
-            <img src="images/coffee-1.png" alt="coffee_1" />
+            <img
+              src="images/coffee-1.png"
+              class="rounded float-right"
+              alt="coffee_1"
+            />
           </div>
-          <div class="product-description">
-            <h1 class="product-title">01. LA LAGARTIJA</h1>
-            <p>
-              Mysterious and treacherous... The best choice for the start of you
-              journey! It will provide you a rich delicious flavour.
-            </p>
+          <div class="product-descriptionp-5">
+            <h1 class="product-title text-center">01. LA LAGARTIJA</h1>
+            <div class="row">
+              <p class="description text-right">
+                <div class="section-title"></div>
+                Mysterious and treacherous... The best choice for the start of you
+                journey! It will provide you a rich delicious flavour.
+              </p>
+            </div>
             <i></i>
             <!-- ratings -->
-            <div class="product-rating">
-              <div class="rating-roasting">5/10</div>
-              <div class="rating-intensive">6/10</div>
+            <div class="product-rating text-left">
+              <div class="rating-roasting"><p>ROASTING: <span>5/10<span></p></div>
+              <div class="rating-intensive"><p>INTENSIVE: <span>6/10<span></p></div>
             </div>
           </div>
         </article>
         <article class="product-left">
           <div class="product-image">
-            <img src="images/coffee-2.png" alt="coffee_2" />
+            <img
+              src="images/coffee-2.png"
+              class="rounded float-left"
+              alt="coffee_2"
+            />
           </div>
-          <div class="product-description">
-            <h1 class="product-title">02. EL TIGRE</h1>
-            <p>
-              Really dark coffee, only for the real gourments. It has bitter
-              flavour of grapefruits and is mixed with a little bit of peanuts
-              with caramel.
-            </p>
+          <div class="product-description p-5">
+            <h1 class="product-title text-center ">02. EL TIGRE</h1>
+            <div class="row">
+              <p class="description text-right">
+                <div class="section-title"></div>
+                Really dark coffee, only for the real gourments. It has bitter
+                flavour of grapefruits and is mixed with a little bit of peanuts
+                with caramel.
+              </p>
+          </div>
             <i></i>
             <!-- ratings -->
-            <div class="product-rating">
-              <div class="rating-roasting">8/10</div>
-              <div class="rating-intensive">9/10</div>
+            <div class="product-rating text-left">
+              <div class="rating-roasting"><p>ROASTING: <span>8/10<span></p></div>
+                <div class="rating-intensive"><p>INTENSIVE: <span>9/10<span></p></div>
             </div>
           </div>
         </article>
         <article class="product-right">
           <div class="product-image">
-            <img src="images/coffee-3.png" alt="coffee_3" />
+            <img
+              src="images/coffee-3.png"
+              class="rounded float-right"
+              alt="coffee_3"
+            />
           </div>
-          <div class="product-description">
-            <h1 class="product-title">03. LA CURACARACHA</h1>
-            <p>
-              Sweet and intense with a big amount of different flavours.
-              Caramel, grapes, strawberry, you name it! It's great choice for
-              warm summer days.
-            </p>
+          <div class="product-description p-5">
+            <h1 class="product-title text-center ">03. LA CURACARACHA</h1>
+            <div class="row">
+              <p class="description text-right">
+                <div class="section-title"></div>
+                Sweet and intense with a big amount of different flavours.
+                Caramel, grapes, strawberry, you name it! It's great choice for
+                warm summer days.
+              </p>
+            </div>
             <i></i>
             <!-- ratings -->
-            <div class="product-rating">
-              <div class="rating-roasting">3/10</div>
-              <div class="rating-intensive">7/10</div>
+            <div class="product-rating text-left">
+              <div class="rating-roasting"><p>ROASTING: <span>3/10<span></p></div>
+                <div class="rating-intensive"><p>INTENSIVE: <span>7/10<span></p></div>
             </div>
           </div>
         </article>
@@ -122,10 +150,10 @@
     </section>
 
     <section class="about">
-      <div class="container">
-        <img src="images/about-us.jpg" alt="about-us" />
-        <h1 class="section-title">ABOUT US</h1>
-        <p>
+      <div class="row">
+        <img src="images/about-us.jpg" class="w-100" alt="about-us" />
+        <h1 class="section-title text-center">ABOUT US</h1>
+        <p class="text-1">
           Who are we? Just a bunch of friends with a love for a good coffee and
           desire to create something new, something original.
         </p>
@@ -138,8 +166,12 @@
     </section>
 
     <footer>
-      <i></i>
-      <p></p>
+      <div class="container">
+        <div class="row">
+          <i class="icon-copyright"></i>
+          <p>2021 EL TIGRE inc.</p>
+        </div>
+      </div>
     </footer>
 
     <script
