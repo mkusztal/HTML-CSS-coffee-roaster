@@ -20,7 +20,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
@@ -56,12 +56,17 @@
     </nav>
 
     <header class="splash">
-      <div class="splash-inner">
+      <div class="splash-inner position-relative text-center">
         <img src="images/background.png" class="w-100" alt="beans of Coffee" />
-        <p class="centered page-title">HOME OF</p>
-        <p class="centered page-title">ORIGINAL TASTES</p>
-        <p>DISCOVER</p>
-        <i class="centered icon-arrow btn"></i>
+        <div class="description position-absolute">
+          <p class="section-title font-weight-bold">
+            HOME OF <span>ORIGINAL TASTES</span>
+          </p>
+        </div>
+        <div class="discover position-absolute">
+          <p>DISCOVER</p>
+          <i class="icon-arrow btn"></i>
+        </div>
       </div>
     </header>
 
@@ -110,7 +115,6 @@
                 flavour of grapefruits and is mixed with a little bit of peanuts
                 with caramel.
               </p>
-              
             </div>
             <i></i>
             <!-- ratings -->
