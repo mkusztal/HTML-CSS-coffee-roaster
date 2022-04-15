@@ -1,0 +1,10 @@
+.spash-inner {
+  display: block;
+}
+.splash p {
+  color: $color-light;
+}
+.splash .img {
+  object-fit: cover;
+  float: right;
+}

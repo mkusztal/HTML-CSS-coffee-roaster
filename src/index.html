@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro:wght@300;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -25,8 +25,10 @@
 
   <body>
     <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-      <a class="navbar-brand" href="#">EL TIGRE</a>
-      <h5 class="navbar-brand">VENEZUELA COFFEE BEANS</h5>
+      <div class="logo">
+        <a class="navbar-brand" href="#">EL TIGRE</a>
+        <h5 class="navbar-brand d-block">VENEZUELA COFFEE BEANS</h5>
+      </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,15 +40,13 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-    
-      <div class="collapse navbar-collapse mr-auto" id="mobile-menu">
+      <div class="collapse navbar-collapse" id="mobile-menu">
         <ul class="navbar-nav navbar">
           <li><a class="nav-link" href="#">HOME</a></li>
           <li><a class="nav-link" href="#">PRODUCTS</a></li>
           <li><a class="nav-link" href="#">ABOUT</a></li>
           <li><a class="nav-link" href="#">CONTACT</a></li>
         </ul>
-    
         <div
           class="btn-toolbar mb-2 ml-auto"
           role="toolbar"
@@ -54,19 +54,18 @@
         ></div>
       </div>
     </nav>
-    
 
     <header class="splash">
       <div class="splash-inner">
         <img src="images/background.png" class="w-100" alt="beans of Coffee" />
-        <p class="page-title">HOME OF</p>
-        <p class="page-title">ORIGINAL TASTES</p>
-        <a class="btn btn-primary" href="#">DISCOVER</a>
-        <i class="icon-arrow"></i>
+        <p class="centered page-title">HOME OF</p>
+        <p class="centered page-title">ORIGINAL TASTES</p>
+        <p>DISCOVER</p>
+        <i class="centered icon-arrow btn"></i>
       </div>
     </header>
 
-    <section class="products m-lg-5">
+    <section class="products">
       <h1 class="section-title text-center">PRODUCTS</h1>
       <div class="row">
         <article class="product-right">
@@ -77,20 +76,20 @@
               alt="coffee_1"
             />
           </div>
-          <div class="product-descriptionp-5">
-            <h1 class="product-title text-center">01. LA LAGARTIJA</h1>
+          <div class="product-description pt-5">
             <div class="row">
-              <p class="description text-right">
-                <div class="section-title"></div>
-                Mysterious and treacherous... The best choice for the start of you
-                journey! It will provide you a rich delicious flavour.
+              <h1 class="product-title text-center">01. LA LAGARTIJA</h1>
+              <p class="section-title"></p>
+              <p class="description">
+                Mysterious and treacherous... The best choice for the start of
+                you journey! It will provide you a rich delicious flavour.
               </p>
-            </div>
-            <i></i>
-            <!-- ratings -->
-            <div class="product-rating text-left">
-              <div class="rating-roasting"><p>ROASTING: <span>5/10<span></p></div>
-              <div class="rating-intensive"><p>INTENSIVE: <span>6/10<span></p></div>
+              <!-- ratings -->
+              <div class="product-rating">
+                <p>ROASTING: <span>5/10</span></p>
+                <p>INTENSIVE: <span>6/10</span></p>
+                <i></i>
+              </div>
             </div>
           </div>
         </article>
@@ -103,20 +102,21 @@
             />
           </div>
           <div class="product-description p-5">
-            <h1 class="product-title text-center ">02. EL TIGRE</h1>
+            <h1 class="product-title text-center">02. EL TIGRE</h1>
             <div class="row">
+              <div class="section-title"></div>
               <p class="description text-right">
-                <div class="section-title"></div>
                 Really dark coffee, only for the real gourments. It has bitter
                 flavour of grapefruits and is mixed with a little bit of peanuts
                 with caramel.
               </p>
-          </div>
+              
+            </div>
             <i></i>
             <!-- ratings -->
-            <div class="product-rating text-left">
-              <div class="rating-roasting"><p>ROASTING: <span>8/10<span></p></div>
-                <div class="rating-intensive"><p>INTENSIVE: <span>9/10<span></p></div>
+            <div class="product-rating">
+              <p>ROASTING: <span>8/10</span></p>
+              <p>INTENSIVE: <span>9/10</span></p>
             </div>
           </div>
         </article>
@@ -129,20 +129,20 @@
             />
           </div>
           <div class="product-description p-5">
-            <h1 class="product-title text-center ">03. LA CURACARACHA</h1>
+            <h1 class="product-title text-center">03. LA CURACARACHA</h1>
             <div class="row">
               <p class="description text-right">
-                <div class="section-title"></div>
                 Sweet and intense with a big amount of different flavours.
                 Caramel, grapes, strawberry, you name it! It's great choice for
                 warm summer days.
               </p>
+              <div class="section-title"></div>
             </div>
             <i></i>
             <!-- ratings -->
-            <div class="product-rating text-left">
-              <div class="rating-roasting"><p>ROASTING: <span>3/10<span></p></div>
-                <div class="rating-intensive"><p>INTENSIVE: <span>7/10<span></p></div>
+            <div class="product-rating">
+              <p>ROASTING: <span>3/10</span></p>
+              <p>INTENSIVE: <span>7/10</span></p>
             </div>
           </div>
         </article>
@@ -152,7 +152,7 @@
     <section class="about">
       <div class="row">
         <img src="images/about-us.jpg" class="w-100" alt="about-us" />
-        <h1 class="section-title text-center">ABOUT US</h1>
+        <h1 class="section-title text-center font-weight-bold">ABOUT US</h1>
         <p class="text-1">
           Who are we? Just a bunch of friends with a love for a good coffee and
           desire to create something new, something original.
@@ -165,12 +165,11 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <i class="icon-copyright"></i>
-          <p>2021 EL TIGRE inc.</p>
-        </div>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="footer-copyright text-center py-3">
+        <i class="icon-copyright"></i>
+        <a href="/"> 2021 EL TIGRE inc.</a>
       </div>
     </footer>
 

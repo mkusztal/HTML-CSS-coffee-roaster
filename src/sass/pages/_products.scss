@@ -1,7 +1,10 @@
-/* products */
+.products {
+  margin: 100px;
+}
 
 .product-title {
-  font-weight: bold;
+  font-weight: 600;
+  font-family: $font-header;
 }
 
 .product-rating p {
@@ -12,7 +15,13 @@
   color: $color-yarrow;
 }
 
-.description .section-title:after {
-  left: 0;
-  transform: translateX(-20%);
+.description {
+  text-align: right;
+  padding-left: 400px;
+  top: 0;
+}
+
+.section-title {
+  left: -10%;
+  top: -10%;
 }
