@@ -6,9 +6,9 @@
   height: 100%;
 }
 
-.splash .img {
+.splash img {
+  filter: brightness(50%);
   object-fit: cover;
-  float: right;
 }
 
 .page-title {
@@ -20,8 +20,8 @@
 .page-title span {
   position: absolute;
   color: $color-yarrow;
-  padding-top: 40px;
-  text-align: right;
+  padding-top: 50px;
+  left: 35%;
 }
 
 .page-title:after {
@@ -29,8 +29,10 @@
   background-color: $color-yarrow;
   content: '';
   bottom: 0;
-  width: 100px;
+  width: 150px;
   height: 5px;
+  top: 15%;
+  left: 50%;
   transform: translateX(-50%);
 }
 
