@@ -2,6 +2,15 @@
   position: relative;
 }
 
+.products .section-title {
+  color: $color-yarrow;
+  top: -10%;
+  left: 0;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
 .products .section-title::after {
   width: 500px;
   top: 150px;
@@ -27,7 +36,7 @@
   bottom: 0;
   width: 100px;
   height: 5px;
-  top: 9%;
+  top: 12.5%;
   left: 16%;
   transform: translateX(-50%);
 }
@@ -39,7 +48,7 @@
   bottom: 0;
   width: 100px;
   height: 5px;
-  top: 42%;
+  top: 44.5%;
   left: 58%;
   transform: translateX(-50%);
 }
@@ -51,7 +60,7 @@
   bottom: 0;
   width: 100px;
   height: 5px;
-  top: 77%;
+  top: 78.5%;
   left: 18%;
   transform: translateX(-50%);
 }
