@@ -72,3 +72,17 @@
 .product-rating span {
   color: $color-yarrow;
 }
+
+.product-image {
+  position: relative;
+}
+
+.product-image::before {
+  position: absolute;
+  content: '';
+  background-color: $background-color-beige;
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: 15px;
+}
