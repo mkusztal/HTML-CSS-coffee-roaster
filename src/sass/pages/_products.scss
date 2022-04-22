@@ -1,5 +1,6 @@
 .products {
   position: relative;
+  height: 1600px;
 }
 
 .products .section-title {
@@ -29,6 +30,18 @@
   padding-bottom: 30px;
 }
 
+.description-right {
+  text-align: left;
+  padding: 0 550px 50px 150px;
+}
+
+.description-left {
+  position: absolute;
+  text-align: left;
+  padding: 0 1000px 50px 50px;
+  left: 850px;
+}
+
 .products-line {
   position: absolute;
   background-color: $color-yarrow;
@@ -36,7 +49,7 @@
   bottom: 0;
   width: 100px;
   height: 5px;
-  top: 12.5%;
+  top: 260px;
   left: 16%;
   transform: translateX(-50%);
 }
@@ -48,7 +61,7 @@
   bottom: 0;
   width: 100px;
   height: 5px;
-  top: 44.5%;
+  top: 690px;
   left: 58%;
   transform: translateX(-50%);
 }
@@ -73,8 +86,42 @@
   color: $color-yarrow;
 }
 
+.product-rating-2 {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+}
+
+.product-rating-2 p {
+  font-weight: bold;
+}
+
+.product-rating-2 span {
+  color: $color-yarrow;
+}
+
 .product-image {
   position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.right-img {
+  position: absolute;
+  left: 500px;
+  top: 50px;
+}
+
+.right-image {
+  position: absolute;
+  left: 550px;
+  top: 320px;
+}
+
+.left-img {
+  position: absolute;
+  left: 0;
+  top: 100px;
 }
 
 .product-image::before {
@@ -83,6 +130,6 @@
   background-color: $background-color-beige;
   width: 100%;
   height: 100%;
-  top: 15px;
-  left: 15px;
+  top: 150px;
+  left: 500px;
 }
