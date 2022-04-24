@@ -20,15 +20,21 @@ class Home {
   randomTitle() {
     const thisHome = this;
 
-    const titles = [
+    thisHome.titles = [
       'Home of Original Tastes',
       'Real Venezuela, Real Coffee',
       'Taste Real Venezuela',
     ];
-    const rand = Math.Floor(Math.random() * titles.length);
 
-    thisHome.homeTitleId = document.getElementById('home-title').innerHTML =
-      titles[rand];
+    thisHome.randTitle = thisHome.getRandomTitle(0, thisHome.titles.length);
+    thisHome.dom.homeTitle.innerHTML = thisHome.randTitle;
+
+    console.log('titles', thisHome.homeTitleRand);
+  }
+
+  getRandomTitle(min, max) {
+    console.log(min, max);
+    return Math.floor(Math.random() * (max - min)) + min;
   }
 }
 

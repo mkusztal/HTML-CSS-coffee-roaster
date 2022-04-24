@@ -128,7 +128,19 @@
   color: $color-yarrow;
 }
 
-.product-image {
+.right-image-1 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.right-image-2 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.left-image {
   position: relative;
   width: 50px;
   height: 50px;
@@ -152,12 +164,111 @@
   top: 100px;
 }
 
-.product-image::before {
-  position: absolute;
+.right-image-1::after {
   content: '';
-  background-color: $background-color-beige;
-  width: 100%;
-  height: 100%;
-  top: 150px;
-  left: 500px;
+  margin: 0 auto;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 200px solid $color-yarrow;
+  transform: rotate(-45deg);
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -80px;
+  left: 931px;
+}
+
+.right-image-2::after {
+  content: '';
+  margin: 0 auto;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 200px solid $color-yarrow;
+  transform: rotate(-45deg);
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 240px;
+  left: 980px;
+}
+
+.left-image::after {
+  content: '';
+  margin: 0 auto;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 200px solid $color-yarrow;
+  transform: rotate(45deg);
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 252px;
+  left: 383px;
+}
+
+.right-image-1 p {
+  position: absolute;
+  color: white;
+  left: 1000px;
+  top: 100px;
+  z-index: 1;
+}
+
+.right-image-1 .old-price {
+  font-size: 28px;
+  left: 950px;
+  top: 80px;
+}
+
+.right-image-1 .new-price {
+  font-size: 36px;
+  top: 120px;
+}
+
+.right-image-2 p {
+  position: absolute;
+  color: white;
+  left: 1000px;
+  top: 1000px;
+  z-index: 1;
+}
+
+.right-image-2 .old-price {
+  font-size: 28px;
+  top: 400px;
+}
+
+.right-image-2 .new-price {
+  font-size: 36px;
+  left: 1050px;
+  top: 450px;
+}
+
+.left-image p {
+  position: absolute;
+  color: white;
+  left: 400px;
+  top: 1000px;
+  z-index: 1;
+}
+
+.left-image .old-price {
+  font-size: 28px;
+  top: 400px;
+}
+
+.left-image .new-price {
+  font-size: 36px;
+  left: 450px;
+  top: 450px;
+}
+
+.old-price::after {
+  z-index: 2;
+  color: black;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
 }

@@ -1,9 +1,9 @@
 export const select = {
   containerOf: {
-    home: 'splash',
+    home: '.splash',
   },
   home: {
-    homeTitle: 'page-title',
+    homeTitle: '.page-title',
   },
 };
 

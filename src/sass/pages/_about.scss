@@ -20,26 +20,38 @@
   top: 150px;
 }
 
-/*.about p {
+.about .text-1 {
   position: absolute;
   color: $color-light;
+  text-align: left;
   font-size: 24px;
   line-height: 1.2;
-  padding: 450px;
-  top: 40%;
-  left: 50%;
+  padding: 350px;
+  top: 0;
+  left: 45%;
   transform: translate(-50%, -50%);
-} */
+}
 
-.about .text-1 {
-  top: 30%;
-  left: 50%;
+.about .text-2 {
+  position: absolute;
+  color: $color-light;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.2;
+  padding: 350px;
+  top: 100px;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 
 .about .motto {
-  top: 70%;
-  left: 80%;
+  position: absolute;
+  color: $color-light;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.2;
+  top: 250px;
+  left: 60%;
   transform: translate(-50%, -50%);
 }
 
