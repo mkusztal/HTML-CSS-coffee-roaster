@@ -24,7 +24,7 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
       <div class="logo">
         <a class="navbar-brand" href="#">EL TIGRE</a>
         <h5 class="navbar-brand d-block">VENEZUELA COFFEE BEANS</h5>
@@ -42,10 +42,10 @@
       </button>
       <div class="collapse navbar-collapse" id="mobile-menu">
         <ul class="navbar-nav navbar">
-          <li><a class="nav-link" href="#">HOME</a></li>
-          <li><a class="nav-link" href="#">PRODUCTS</a></li>
-          <li><a class="nav-link" href="#">ABOUT</a></li>
-          <li><a class="nav-link" href="#">CONTACT</a></li>
+          <li><a class="nav-link" href="home">HOME</a></li>
+          <li><a class="nav-link" href="products">PRODUCTS</a></li>
+          <li><a class="nav-link" href="about">ABOUT</a></li>
+          <li><a class="nav-link" href="contact">CONTACT</a></li>
         </ul>
         <div
           class="btn-toolbar mb-2 ml-auto"
@@ -81,8 +81,11 @@
                 class="rounded right-img pl-5"
                 alt="coffee_1"
               />
-              <p class="old-price">36$</p>
-              <p class="new-price">25$</p>
+              <div class="prices">
+                <p class="old-price">36$</p>
+                <p class="price-line-1"></p>
+                <p class="new-price">25$</p>
+              </div>
             </div>
             <div class="product-description float-left pt-5">
               <div class="row">
@@ -107,8 +110,11 @@
                 class="rounded left-img"
                 alt="coffee_2"
               />
-              <p class="old-price">29$</p>
-              <p class="new-price">19$</p>
+              <div class="prices">
+                <p class="old-price">29$</p>
+                <p class="price-line-2"></p>
+                <p class="new-price">19$</p>
+              </div>
             </div>
             <div class="product-description float-right p-5">
               <div class="row pl-5">
@@ -138,6 +144,7 @@
                 alt="coffee_3"
               />
               <p class="old-price">32$</p>
+              <p class="price-line-3"></p>
               <p class="new-price">13$</p>
             </div>
             <div class="product-description float-left p-5">
