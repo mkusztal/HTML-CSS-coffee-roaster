@@ -27,13 +27,8 @@ class Home {
     ];
 
     thisHome.randTitle =
-      thisHome.titles[Math.floor(thisHome.getRandomTitle(0, 4))];
+      thisHome.titles[Math.floor(Math.random() * thisHome.titles.length)];
     thisHome.dom.homeTitle.innerHTML = thisHome.randTitle;
-  }
-
-  getRandomTitle(min, max) {
-    console.log(min, max);
-    return Math.floor(Math.random() * (max - min)) + min;
   }
 }
 
