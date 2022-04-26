@@ -18,16 +18,11 @@
 }
 
 .page-title {
-  font-size: 54px;
-  color: $color-yarrow;
-  text-align: left;
-}
-
-.page-title span {
   position: absolute;
+  font-size: 66px;
   color: $color-yarrow;
-  padding-top: 50px;
-  left: 35%;
+  top: -5%;
+  left: 25%;
 }
 
 .page-title:after {
@@ -37,8 +32,8 @@
   bottom: 0;
   width: 150px;
   height: 5px;
-  top: 15%;
-  left: 50%;
+  top: 200px;
+  left: 350px;
   transform: translateX(-50%);
 }
 

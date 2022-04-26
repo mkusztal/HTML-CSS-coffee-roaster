@@ -26,10 +26,9 @@ class Home {
       'Taste Real Venezuela',
     ];
 
-    thisHome.randTitle = thisHome.getRandomTitle(0, thisHome.titles.length);
+    thisHome.randTitle =
+      thisHome.titles[Math.floor(thisHome.getRandomTitle(0, 4))];
     thisHome.dom.homeTitle.innerHTML = thisHome.randTitle;
-
-    console.log('titles', thisHome.homeTitleRand);
   }
 
   getRandomTitle(min, max) {

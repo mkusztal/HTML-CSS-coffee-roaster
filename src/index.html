@@ -24,7 +24,7 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark" id="nav">
       <div class="logo">
         <a class="navbar-brand" href="#">EL TIGRE</a>
         <h5 class="navbar-brand d-block">VENEZUELA COFFEE BEANS</h5>
@@ -42,10 +42,9 @@
       </button>
       <div class="collapse navbar-collapse" id="mobile-menu">
         <ul class="navbar-nav navbar">
-          <li><a class="nav-link" href="home">HOME</a></li>
-          <li><a class="nav-link" href="products">PRODUCTS</a></li>
-          <li><a class="nav-link" href="about">ABOUT</a></li>
-          <li><a class="nav-link" href="contact">CONTACT</a></li>
+          <li><a class="nav-link" href="#home">HOME</a></li>
+          <li><a class="nav-link" href="#products">PRODUCTS</a></li>
+          <li><a class="nav-link" href="#about">ABOUT</a></li>
         </ul>
         <div
           class="btn-toolbar mb-2 ml-auto"
@@ -55,13 +54,11 @@
       </div>
     </nav>
 
-    <header class="splash">
+    <header class="splash" id="home">
       <div class="splash-inner position-relative">
         <img src="images/background.png" class="w-100" alt="beans of Coffee" />
         <div class="description position-absolute">
-          <p class="page-title font-weight-bold" id="home-title">
-            HOME OF <span> ORIGINAL TASTES</span>
-          </p>
+          <p class="page-title font-weight-bold" id="home-title"></p>
         </div>
         <div class="discover position-absolute text-center">
           <p>DISCOVER</p>
@@ -70,7 +67,7 @@
       </div>
     </header>
 
-    <section class="products position-relative pt-5">
+    <section class="products position-relative pt-5" id="products">
       <div class="container">
         <div class="row">
           <h1 class="section-title text-center font-weight-bold">PRODUCTS</h1>
@@ -168,11 +165,7 @@
       </div>
     </section>
 
-    <div
-      id="main-slider"
-      class="carousel slide about mt-5"
-      data-ride="carousel"
-    >
+    <div id="about" class="carousel slide about mt-5" data-ride="carousel">
       <div class="carousel-inner">
         <img src="images/about-us.jpg" class="w-100 about-bg" alt="about-us" />
         <h1 class="section-title text-center font-weight-bold">ABOUT US</h1>
