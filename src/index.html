@@ -20,7 +20,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
   </head>
 
   <body class="d-flex flex-column min-vh-100">
@@ -62,28 +65,16 @@
       </div>
     </header>
 
-    <section class="products position-relative pt-5" id="products">
+    <section class="products pt-5">
       <div class="container">
-        <div class="row">
-          <h1 class="section-title text-center font-weight-bold">PRODUCTS</h1>
-          <article class="product-right p-5">
-            <div class="right-image-1">
-              <img
-                src="images/coffee-1.png"
-                class="rounded right-img pl-5"
-                alt="coffee_1"
-              />
-              <div class="prices">
-                <p class="old-price">36$</p>
-                <p class="price-line-1"></p>
-                <p class="new-price">25$</p>
-              </div>
-            </div>
+        <h1 class="section-title text-center font-weight-bold">PRODUCTS</h1>
+        <div class="row product-1">
+          <div class="col">
             <div class="product-description float-left pt-5">
               <div class="row">
                 <h1 class="product-title text-left">01. LA LAGARTIJA</h1>
                 <p class="products-line"></p>
-                <p class="description-right">
+                <p class="description">
                   Mysterious and treacherous... The best choice for the start of
                   you journey! It will provide you a rich delicious flavour.
                 </p>
@@ -94,9 +85,25 @@
                 </div>
               </div>
             </div>
-          </article>
-          <article class="product-left">
-            <div class="left-image">
+          </div>
+          <div class="col">
+            <div class="right-img">
+              <img
+                src="images/coffee-1.png"
+                class="rounded pl-5"
+                alt="coffee_1"
+              />
+              <div class="prices">
+                <p class="old-price">36$</p>
+                <p class="price-line"></p>
+                <p class="new-price">25$</p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="row product-2 pt-3">
+          <div class="col">
+            <div class="left-img">
               <img
                 src="images/coffee-2.png"
                 class="rounded left-img"
@@ -104,63 +111,73 @@
               />
               <div class="prices">
                 <p class="old-price">29$</p>
-                <p class="price-line-2"></p>
+                <p class="price-line"></p>
                 <p class="new-price">19$</p>
               </div>
             </div>
-            <div class="product-description float-right p-5">
+          </div>
+          <div class="col">
+            <div class="product-description float-right pt-5">
               <div class="row pl-5">
-                <h1 class="product-title text-right">02. EL TIGRE</h1>
+                <h1 class="product-title text-left">02. EL TIGRE</h1>
                 <div class="row">
-                  <p class="products-line-2"></p>
-                  <p class="description-left">
+                  <p class="products-line"></p>
+                  <p class="description">
                     Really dark coffee, only for the real gourments. It has
                     bitter flavour of grapefruits and is mixed with a little bit
                     of peanuts with caramel.
                   </p>
                 </div>
                 <i></i>
-
-                <div class="product-rating-2">
+                <div class="product-rating">
                   <p>ROASTING: <span>8/10</span></p>
                   <p>INTENSIVE: <span>9/10</span></p>
                 </div>
               </div>
             </div>
-          </article>
-          <article class="product-right">
-            <div class="right-image-2">
-              <img
-                src="images/coffee-3.png"
-                class="rounded right-image pl-5"
-                alt="coffee_3"
-              />
-              <p class="old-price">32$</p>
-              <p class="price-line-3"></p>
-              <p class="new-price">13$</p>
-            </div>
-            <div class="product-description float-left p-5">
+          </div>
+        </div>
+        
+        <div class="row product-3 pt-3">
+          <div class="col">
+            <div class="product-description float-left pt-5">
               <h1 class="product-title-3 text-left">03. LA CURACARACHA</h1>
               <div class="row">
-                <p class="description-3 text-left">
+                <p class="description text-left">
                   Sweet and intense with a big amount of different flavours.
                   Caramel, grapes, strawberry, you name it! It's great choice
                   for warm summer days.
                 </p>
-                <div class="products-line-3"></div>
+                <div class="products-line"></div>
               </div>
               <i></i>
-              <div class="product-rating-3">
+              <div class="product-rating">
                 <p>ROASTING: <span>3/10</span></p>
                 <p>INTENSIVE: <span>7/10</span></p>
               </div>
             </div>
-          </article>
+          </div>
+          <div class="col">
+            <div class="right-img">
+              <img
+                src="images/coffee-3.png"
+                class="rounded pl-5"
+                alt="coffee_3"
+              />
+            <div class="prices">
+              <p class="old-price">32$</p>
+              <p class="price-line"></p>
+              <p class="new-price">13$</p>
+            </div>
+          </div>
+          
+
         </div>
+      
       </div>
     </section>
 
-    <div id="about" class="carousel slide about mt-5" data-ride="carousel">
+    <div id="about" class="carousel slide about" data-ride="carousel">
       <div class="carousel-inner">
         <img src="images/about-us.jpg" class="w-100 about-bg" alt="about-us" />
         <h1 class="section-title text-center font-weight-bold">ABOUT US</h1>

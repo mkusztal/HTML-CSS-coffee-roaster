@@ -291,6 +291,9 @@
   transform: translateY(-580px);
 }
 
-/* mobile 
-@media (max-width: 767px) {
-}*/
+/* mobile */
+@media (min-width: 768px) {
+  .row > * {
+    display: inline-block;
+  }
+}

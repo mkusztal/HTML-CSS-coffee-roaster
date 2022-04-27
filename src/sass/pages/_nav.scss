@@ -24,3 +24,13 @@
 .navbar-nav {
   left: 60%;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .logo {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    line-height: 1;
+  }
+}

@@ -58,3 +58,27 @@
 .icon-arrow:hover {
   color: $color-light;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .description p {
+    padding-right: 70px;
+    letter-spacing: 10px;
+  }
+
+  .page-title {
+    font-size: 36px;
+    top: 10%;
+    left: 20%;
+  }
+
+  .page-title:after {
+    top: 120px;
+    left: 250px;
+  }
+
+  .discover,
+  .icon-arrow {
+    bottom: 0;
+  }
+}
