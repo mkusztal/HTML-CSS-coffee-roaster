@@ -3,6 +3,10 @@
   height: 700px;
 }
 
+.bg-img {
+  filter: brightness(50%);
+}
+
 .main-carousel .section-title {
   top: -5%;
   left: 42%;
@@ -13,12 +17,7 @@
   top: 150px;
 }
 
-/* img background */
-.main-carousel style {
-  filter: brightness(50%);
-}
-
-.carousel-cell .about-bg {
+.carousel-cell {
   height: 100%;
 }
 
@@ -49,6 +48,7 @@
   top: 40%;
   left: 55%;
 }
+
 .box-description h4 {
   font-weight: bold;
   padding-bottom: 30px;
