@@ -1,6 +1,6 @@
 .products {
   position: relative;
-  height: 1600px;
+  height: 1400px;
 }
 
 .products .section-title {
@@ -62,6 +62,11 @@
   color: $color-yarrow;
 }
 
+.product-3 img {
+  position: absolute;
+  right: -15px;
+}
+
 .right-img::after {
   position: absolute;
   content: '';
@@ -74,6 +79,11 @@
   height: 0;
   bottom: 152px;
   left: 443px;
+}
+
+.product-3 .right-img::after {
+  bottom: 26px;
+  left: 400px;
 }
 
 .left-img::after {
